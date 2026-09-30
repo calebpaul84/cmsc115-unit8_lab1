@@ -61,16 +61,22 @@ https://github.com/calebpaul84/cmsc115-unit8_lab1
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- The reverse order test failed.
 
 ## What was the issue in the code?
--
+- The program didn't have a way to calculate the sum properly if
+- the start value was larger than the end value.
 
 ## What change did you make to fix it?
--
+- I added an if statement for when the start value is larger than
+- the end value. In that scenario it will temporarily swap the 
+- integer values around so the for statement still works as 
+- intended and can properly calculate the sum.
 
 ## How did the tests help guide your fix?
--
+- It helped narrow down what the problem was because not all tests
+- failed. It made me realize that the program can't calculate properly 
+- when the start value is larger than the end value.
 
 ---
 

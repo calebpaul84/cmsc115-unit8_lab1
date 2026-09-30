@@ -42,16 +42,19 @@ https://github.com/calebpaul84/cmsc115-unit8_lab1
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- All tests failed.
 
 ## What was the issue in the code?
--
+- The for statement had an error. It was (i = 0; i <= values.length; i++)
+- The correct statement is (i = 0; i < values.length; i++)
+- It also had sum = 1, and it should be sum = 0
 
 ## What change did you make to fix it?
--
-
+- I changed the for statement to (i = 0; i < values.length; i++)
+- I also set sum to sum = 0
 ## How did the tests help guide your fix?
--
+- The index error it had told me something was wrong with how
+- it was iterating over the array.
 
 ---
 

@@ -1,36 +1,41 @@
 # Lab Reflection: Unit 8 Lab 1 - Git Version Control + Debugging (BuggyProgram)
 
 ## Student Name
-Enter your name here.
+Caleb Paul
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+https://github.com/calebpaul84/cmsc115-unit8_lab1
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- To show the initial start of the project.
 
 ## What was the purpose of this commit?
--
+- To create a start point of the project and to show what the
+- program looked like before any changes.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- Both tests, testGrades and testEdges failed. 
 
 ## What was the issue in the code?
--
+- The formating was bad. The returns for "Meets" and "Exceeds"
+- were flipped and outputting for the wrong scores. Also had >
+- rather than >= for the score ranges.
 
 ## What change did you make to fix it?
--
+- Put "Meets" and "Exceeds" in the correct locations and 
+- added >= to the score ranges.
 
 ## How did the tests help guide your fix?
--
+- It told me what the score ranges are supposed to be for 
+- the "Meets" and "Exceeds" categories.
 
 ---
 

@@ -2,16 +2,16 @@ public class BuggyProgram {
 
     // Method 1: nested conditionals
     public static String getGrade(int score) {
-        if (score > 90) {
+        if (score >= 90) {
+            return "Exceeds";
+        }
+        else if (score >= 80) {
             return "Meets";
-        } else {
-            if (score > 80) {
-                return "Exceeds";
-            } else {
-                return "Does Not Meet";
+        }
+        else {
+            return "Does Not Meet";
             }
         }
-    }
 
     // Method 2: loop with array
     public static int sumEvenNumbers(int[] values) {

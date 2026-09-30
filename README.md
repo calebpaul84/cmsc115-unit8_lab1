@@ -83,26 +83,34 @@ https://github.com/calebpaul84/cmsc115-unit8_lab1
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+- Task 2 was the easiest because I immediately saw the <= and the sum = 1
+- and knew that would be an issue. I tested again after I fixed that
+- and all the tests passed.
 
 ## Which task was the most difficult? Why?
--
+- Task 3 was the most difficult. It just took me longer than the other
+- tasks to see what the issue was and took me a bit to think of a solution.
 
 ## How did Git help you track your progress through the debugging process?
--
+- It stores all the commits I made and I can look back and see what
+- the code was at different stages of the project. 
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+- So you can always go back and see what you changed in the event
+- you changed something major and end up needed to revert that change.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+- It can still be hard to see what the issue is and why the test is failing
+- It's also a very clean looking and simple way to test your program.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+- The overall reflection in the readme.
 
 ## Why is it useful to document your work after completing a programming task?
--
+- So you can look back at it in the future if you needs to make changes
+- or need to look at it to help you with future projects.
+- It can also be useful for other people that may need to look at your program.
